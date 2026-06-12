@@ -90,12 +90,12 @@ ITINERARY = [
 ]
 
 EXPERIENCES = [
-    {"icon": "🌅", "title": "御來光", "desc": "凌晨攻頂，在海拔 3,776m 親眼見證日出"},
+    {"icon": "🌄", "title": "御來光", "desc": "凌晨攻頂，在海拔 3,776m 親眼見證日出"},
     {"icon": "🌸", "title": "薰衣草海", "desc": "大石公園 7 月盛開，富士山為背景"},
-    {"icon": "♨️", "title": "富士溫泉", "desc": "河口湖旅館，泡湯遠眺富士山影"},
-    {"icon": "☕", "title": "精品咖啡", "desc": "清澄白河，Tokyo 精品咖啡聖地"},
+    {"icon": "🌊", "title": "富士溫泉", "desc": "河口湖旅館，泡湯遠眺富士山影"},
+    {"icon": "🍵", "title": "精品咖啡", "desc": "清澄白河，Tokyo 精品咖啡聖地"},
     {"icon": "📚", "title": "下北澤文化", "desc": "古著、書店、音樂、居酒屋，文青天堂"},
-    {"icon": "🍵", "title": "忍野八海", "desc": "世界遺產湧泉群，傳統村落風情"},
+    {"icon": "💧", "title": "忍野八海", "desc": "世界遺產湧泉群，傳統村落風情"},
 ]
 
 WEATHER = [
@@ -284,7 +284,15 @@ details.day-card[open] .day-caret { transform: rotate(90deg); }
     height: 100%;
 }
 .exp-card:hover { transform: translateY(-5px); }
-.exp-icon  { font-size: 2.4rem; margin-bottom: 10px; }
+.exp-icon  {
+    font-size: 2rem;
+    width: 72px; height: 72px;
+    background: linear-gradient(135deg, #EAF5EA, #C8E0C8);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    margin: 0 auto 14px;
+    box-shadow: 0 3px 12px rgba(67,139,72,.18);
+}
 .exp-title { font-family: 'Noto Serif TC', serif; font-size: 1rem; font-weight: 600; color: #1e2e1e; margin-bottom: 6px; }
 .exp-desc  { font-size: .80rem; color: #78A95B; line-height: 1.55; font-family: 'Noto Sans TC', sans-serif; }
 
@@ -302,9 +310,15 @@ details.day-card[open] .day-caret { transform: rotate(90deg); }
 .wtable td { padding: 11px 16px; border-bottom: 1px solid #EDF2ED; color: #2a3a2a; }
 .wtable td:first-child { font-weight: 700; color: #438B48; }
 .tbadge {
-    background: linear-gradient(135deg,#3C828F,#5BA5B0);
-    color: white; padding: 3px 10px;
-    border-radius: 12px; font-size: .80rem; font-weight: 700;
+    background: #3C828F;
+    color: white;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: .95rem;
+    font-weight: 700;
+    letter-spacing: .03em;
+    display: inline-block;
+    white-space: nowrap;
 }
 
 /* ── Fuji elevation chart ───────────────────── */
