@@ -352,8 +352,13 @@ details.day-card[open] .day-caret { transform: rotate(90deg); }
     margin-bottom: 20px;
 }
 
-/* Streamlit checkbox tweak */
-[data-testid="stCheckbox"] label {
+/* Streamlit checkbox tweak — 覆蓋所有可能的文字節點 */
+[data-testid="stCheckbox"] label,
+[data-testid="stCheckbox"] label p,
+[data-testid="stCheckbox"] label span,
+[data-testid="stCheckbox"] p,
+[data-testid="stCheckbox"] span,
+[data-testid="stCheckbox"] div {
     font-family: 'Noto Sans TC', sans-serif !important;
     font-size: .88rem !important;
     color: #000000 !important;
