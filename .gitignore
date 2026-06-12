@@ -1,0 +1,12 @@
+# 只部署 app.py 和 requirements.txt
+*.png
+*.jpg
+*.jpeg
+*.docx
+*.zip
+*.md
+__pycache__/
+.streamlit/
+計劃書與文本/
+參考元素圖片/
+.env
