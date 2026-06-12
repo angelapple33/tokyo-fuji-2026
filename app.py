@@ -2,7 +2,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 st.set_page_config(
-    page_title="🗻 東京・富士山 2025",
+    page_title="🗻 東京・富士山 2026",
     page_icon="🗻",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -356,7 +356,7 @@ details.day-card[open] .day-caret { transform: rotate(90deg); }
 [data-testid="stCheckbox"] label {
     font-family: 'Noto Sans TC', sans-serif !important;
     font-size: .88rem !important;
-    color: #2a3a2a !important;
+    color: #000000 !important;
 }
 
 /* ── Route strip ────────────────────────────── */
@@ -615,11 +615,11 @@ body { background:transparent; overflow:hidden; }
 
   <!-- Text overlay -->
   <div class="textbox">
-    <p class="label">TRAVEL PLAN 2025</p>
+    <p class="label">TRAVEL PLAN 2026</p>
     <h1 class="title">東京・富士山</h1>
     <p class="sub">七天六夜小旅行</p>
     <p class="people">Jack &nbsp;×&nbsp; Mike &nbsp;×&nbsp; Apple</p>
-    <p class="dates">2025.07.03 → 07.09</p>
+    <p class="dates">2026.07.03 → 07.09</p>
   </div>
 </div>
 </body>
@@ -818,7 +818,7 @@ for title, items in CHECKLISTS.items():
 
 st.markdown("""
 <div class="page-footer">
-  🗻 東京・富士山 2025 ｜ Jack × Mike × Apple<br>
+  🗻 東京・富士山 2026 ｜ Jack × Mike × Apple<br>
   <span style="opacity:.6;">祝一路順風，御來光見！</span>
 </div>
 """, unsafe_allow_html=True)
