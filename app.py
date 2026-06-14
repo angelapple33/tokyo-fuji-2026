@@ -17,74 +17,78 @@ ITINERARY = [
         "day": 1, "date": "07/03（五）", "title": "東京抵達",
         "location": "tokyo",
         "activities": [
-            {"time": "抵達", "icon": "✈️", "name": "成田機場落地", "detail": "搭 Narita Express 進東京市區，約 60 分鐘"},
-            {"time": "傍晚", "icon": "🏨", "name": "入住飯店，輕鬆晚餐", "detail": "整理行李，熟悉環境"},
-            {"time": "晚上", "icon": "😴", "name": "早睡調時差", "detail": "明天起，精彩正式開始！"},
+            {"time": "抵達", "icon": "✈️", "name": "成田機場落地", "detail": "方案A：N'EX→新宿→JR総武線→錦糸町（約75分，¥3,070）｜方案B：京成本線→押上→錦糸町（約80分，¥1,050）"},
+            {"time": "傍晚", "icon": "🏨", "name": "入住錦糸町飯店", "detail": "KINSHICHO Tokyo Holiday Hotel，整理行李，熟悉環境"},
+            {"time": "晚上", "icon": "🍣", "name": "錦糸町周邊晚餐", "detail": "車站周邊有超市、居酒屋，輕鬆覓食"},
+            {"time": "夜", "icon": "😴", "name": "早睡調時差", "detail": "明天一早就搭富士回遊號出發！"},
         ],
     },
     {
-        "day": 2, "date": "07/04（六）", "title": "新宿 → 河口湖",
+        "day": 2, "date": "07/04（六）", "title": "錦糸町 → 富士吉田",
         "location": "kawaguchiko",
         "activities": [
-            {"time": "上午", "icon": "🚃", "name": "富士回遊號出發", "detail": "新宿搭特急，約 1 小時 53 分直達河口湖"},
-            {"time": "14:00", "icon": "🌸", "name": "大石公園", "detail": "湖邊漫步，遠眺富士山，7月薰衣草正盛開"},
-            {"time": "15:30", "icon": "🚡", "name": "富士山全景纜車", "detail": "俯瞰河口湖與富士山全景，來回約 20 分鐘"},
-            {"time": "16:30", "icon": "🍪", "name": "Fujiyama Cookie", "detail": "纜車站旁，富士山造型餅乾，¥180 起"},
-            {"time": "晚上", "icon": "♨️", "name": "旅館溫泉", "detail": "早睡備戰！明天開始登山"},
+            {"time": "上午", "icon": "🚆", "name": "富士回遊號直達出發", "detail": "從錦糸町站直搭富士回遊號 → 富士急高原樂園站（約2小時15分），完全不需先去新宿！"},
+            {"time": "抵達", "icon": "🏨", "name": "Mystays 放行李", "detail": "步行5分鐘抵達 Hotel Mystays，寄放行李"},
+            {"time": "上午", "icon": "⛩", "name": "新倉山淺間公園（忠靈塔）", "detail": "五重塔＋富士山經典構圖，需爬約400階，上午雲少最美"},
+            {"time": "13:00", "icon": "🍜", "name": "吉田烏龍麵午餐", "detail": "富士吉田本町通，名物「吉田烏龍麵」，湯頭偏甜辣，麵條超粗"},
+            {"time": "14:00", "icon": "🌸", "name": "大石公園", "detail": "湖邊漫步，遠眺富士山，7月薰衣草季盛開"},
+            {"time": "15:30", "icon": "🚡", "name": "富士山全景纜車（天上山公園）", "detail": "俯瞰河口湖＋富士山全景，來回約20分鐘"},
+            {"time": "16:30", "icon": "🍪", "name": "Fujiyama Cookie", "detail": "纜車站旁，富士山造型餅乾，¥180起（週二休）"},
+            {"time": "晚上", "icon": "♨️", "name": "Hotel Mystays 頂樓溫泉", "detail": "邊泡湯邊看富士山，登山前最佳放鬆！早睡"},
         ],
     },
     {
         "day": 3, "date": "07/05（日）", "title": "登富士山 ↑",
         "location": "fuji",
         "activities": [
-            {"time": "早上", "icon": "🚌", "name": "巴士前往五合目", "detail": "河口湖搭巴士，約 50 分鐘（吉田口五合目，海拔 2,390m）"},
+            {"time": "早上", "icon": "🚌", "name": "巴士前往五合目", "detail": "步行5分→富士急高原樂園站，搭1站至河口湖站，再轉巴士約50分（吉田口五合目，海拔2,390m）"},
             {"time": "14:00前", "icon": "🔒", "name": "通過登山閘門", "detail": "⚠️ 閘門 14:00 關閉，務必提前抵達！住山屋者另有安排"},
             {"time": "下午", "icon": "⛰️", "name": "吉田路線上山", "detail": "目標八合目，預計 5–7 小時（含休息）"},
             {"time": "傍晚", "icon": "🛖", "name": "入住簾岩館", "detail": "海拔 3,100m 山屋。充分休息，備戰凌晨攻頂"},
         ],
     },
     {
-        "day": 4, "date": "07/06（一）", "title": "御來光攻頂 → 回河口湖",
+        "day": 4, "date": "07/06（一）", "title": "御來光攻頂 → 回富士吉田",
         "location": "fuji",
         "activities": [
             {"time": "凌晨", "icon": "🌅", "name": "攻頂・御來光", "detail": "從山屋出發，登頂日出（海拔 3,776m）——此生難忘"},
             {"time": "早上", "icon": "🌋", "name": "火山口環繞", "detail": "頂峰環走，四周壯麗雲海"},
-            {"time": "上午", "icon": "⬇️", "name": "下山返回五合目", "detail": "約 3–4 小時，搭巴士回河口湖"},
-            {"time": "13:00", "icon": "🍵", "name": "忍野八海", "detail": "八個清澈湧泉群，世界遺產，傳統村落，食蕎麥麵"},
-            {"time": "17:00", "icon": "🗻", "name": "富士吉田本町通", "detail": "直街盡頭就是富士山，黃昏光線最美"},
-            {"time": "晚上", "icon": "♨️", "name": "旅館溫泉休息", "detail": "犒勞辛苦的雙腳，好好泡一下"},
+            {"time": "上午", "icon": "⬇️", "name": "下山返回五合目", "detail": "約 3–4 小時，搭巴士回河口湖站，再回 Mystays 放行李"},
+            {"time": "13:00", "icon": "🍵", "name": "忍野八海", "detail": "富士山融雪形成的八個清澈湧泉，世界遺產，傳統村落，食蕎麥麵"},
+            {"time": "17:00", "icon": "🗻", "name": "富士吉田本町通", "detail": "直街盡頭就是富士山，黃昏光線最美，逆富士拍攝聖地"},
+            {"time": "晚上", "icon": "♨️", "name": "旅館頂樓溫泉", "detail": "犒勞辛苦的雙腳，登山後最需要的就是這個！"},
         ],
     },
     {
         "day": 5, "date": "07/07（二）", "title": "回東京 × 下北澤",
         "location": "tokyo",
         "activities": [
-            {"time": "上午", "icon": "🚃", "name": "富士回遊號返新宿", "detail": "入住東京飯店，放行李"},
-            {"time": "14:00", "icon": "🛍️", "name": "Bonus Track", "detail": "獨立商店街，咖啡館、發酵食品店、藝廊，有戶外座位"},
+            {"time": "上午", "icon": "🚆", "name": "富士回遊號返錦糸町", "detail": "富士急高原樂園站直搭，約2小時，下車步行3分入住飯店，放行李休息"},
+            {"time": "14:00", "icon": "🛍️", "name": "Bonus Track（下北澤）", "detail": "獨立商店街，咖啡館、發酵食品店、藝廊，有戶外座位"},
             {"time": "15:30", "icon": "📖", "name": "B&B（Book & Beer）", "detail": "Bonus Track 2F，邊喝啤酒邊看書，超放鬆"},
             {"time": "16:30", "icon": "🎸", "name": "Village Vanguard", "detail": "亞文化雜貨聖地，奇奇怪怪的東西都有"},
             {"time": "17:30", "icon": "📚", "name": "TSUTAYA 下北澤", "detail": "有品味的選書蔦屋書店，附設咖啡"},
-            {"time": "晚上", "icon": "🍶", "name": "下北澤居酒屋晚餐", "detail": "享受本町獨特文青氛圍"},
+            {"time": "晚上", "icon": "🍶", "name": "下北澤居酒屋晚餐", "detail": "享受下北澤獨特文青氛圍"},
         ],
     },
     {
         "day": 6, "date": "07/08（三）", "title": "清澄白河咖啡聚落",
         "location": "tokyo",
         "activities": [
-            {"time": "10:00", "icon": "☕", "name": "ARiSE Coffee Roasters", "detail": "在地烘豆師，手沖依當日豆單推薦，東南亞氛圍"},
+            {"time": "10:00", "icon": "☕", "name": "ARiSE Coffee Roasters", "detail": "在地烘豆師，手沖依當日豆單推薦，東南亞氛圍（週一公休，今天週三OK）"},
             {"time": "11:00", "icon": "☕", "name": "Blue Bottle Coffee 旗艦店", "detail": "日本第一家，老倉庫改建，挑高空間，必朝聖"},
-            {"time": "13:00", "icon": "🎨", "name": "東京都現代美術館（MOT）", "detail": "步行約 10 分鐘，展覽品質高，值得半天"},
-            {"time": "15:00+", "icon": "🚶", "name": "清澄白河周邊漫步", "detail": "這裡咖啡館一間接一間，慢慢探索"},
-            {"time": "晚上", "icon": "🍽️", "name": "自由行程", "detail": "可前往上野、秋葉原或銀座晚餐"},
+            {"time": "13:00", "icon": "🎨", "name": "東京都現代美術館（MOT）", "detail": "步行約 10 分鐘，展覽品質高（週一休，今天週三OK）"},
+            {"time": "15:00+", "icon": "🚶", "name": "清澄白河周邊漫步", "detail": "倉庫改造咖啡館一間接一間，慢慢探索"},
+            {"time": "晚上", "icon": "🍽️", "name": "自由行程", "detail": "可前往上野、秋葉原或銀座晚餐，從清澄白河搭地鐵均可達"},
         ],
     },
     {
         "day": 7, "date": "07/09（四）", "title": "返台",
         "location": "tokyo",
         "activities": [
-            {"time": "上午", "icon": "🛍️", "name": "退房 + 最後購物", "detail": "別忘了伴手禮！藥妝、零食、文具"},
-            {"time": "出發", "icon": "🚃", "name": "前往成田機場", "detail": "成田特快或利木津巴士，建議提前 2 小時"},
-            {"time": "✈️", "icon": "🛫", "name": "成田 → 台北桃園", "detail": "一路平安，下次見！"},
+            {"time": "上午", "icon": "🛍️", "name": "退房 + 最後購物", "detail": "別忘了伴手禮！錦糸町周邊有藥妝、超市"},
+            {"time": "出發", "icon": "🚃", "name": "前往成田機場", "detail": "方案A：総武線→新宿→N'EX（約75分，¥3,070）｜方案B：錦糸町→押上→京成本線（約80分，¥1,050）"},
+            {"time": "✈️", "icon": "🛫", "name": "成田 → 台北桃園", "detail": "建議提前 2.5 小時到機場，一路平安！"},
         ],
     },
 ]
@@ -92,7 +96,7 @@ ITINERARY = [
 EXPERIENCES = [
     {"icon": "🌄", "title": "御來光", "desc": "凌晨攻頂，在海拔 3,776m 親眼見證日出"},
     {"icon": "🌸", "title": "薰衣草海", "desc": "大石公園 7 月盛開，富士山為背景"},
-    {"icon": "🌊", "title": "富士溫泉", "desc": "河口湖旅館，泡湯遠眺富士山影"},
+    {"icon": "🌊", "title": "富士溫泉", "desc": "Mystays 頂樓溫泉，泡湯遠眺富士山影"},
     {"icon": "🍵", "title": "精品咖啡", "desc": "清澄白河，Tokyo 精品咖啡聖地"},
     {"icon": "📚", "title": "下北澤文化", "desc": "古著、書店、音樂、居酒屋，文青天堂"},
     {"icon": "💧", "title": "忍野八海", "desc": "世界遺產湧泉群，傳統村落風情"},
@@ -100,7 +104,7 @@ EXPERIENCES = [
 
 WEATHER = [
     {"loc": "東京市區", "alt": "0 m", "temp": "25–33°C", "note": "梅雨尾聲，午後陣雨，體感炎熱"},
-    {"loc": "河口湖", "alt": "900 m", "temp": "17–28°C", "note": "比東京涼 5–8°C，早晚需薄外套"},
+    {"loc": "河口湖・富士吉田", "alt": "900 m", "temp": "17–28°C", "note": "比東京涼 5–8°C，早晚需薄外套"},
     {"loc": "五合目", "alt": "2,390 m", "temp": "5–12°C", "note": "常年有雲，午後雷雨頻率高"},
     {"loc": "八合目（山屋）", "alt": "3,100 m", "temp": "1–7°C", "note": "強風常見，風速可達 20m/s+"},
     {"loc": "山頂・劍峰", "alt": "3,776 m", "temp": "-3–6°C", "note": "接近 0°C，冬季裝備必備"},
@@ -117,21 +121,23 @@ FUJI_STATIONS = [
 
 CHECKLISTS = {
     "🏨 住宿預訂": [
-        "東京飯店（7/3 入住）",
-        "東京飯店（7/7、7/8 入住）",
-        "河口湖旅館（7/4、7/6）—— 建議選有溫泉",
+        "KINSHICHO Tokyo Holiday Hotel（7/3 入住）",
+        "KINSHICHO Tokyo Holiday Hotel（7/7、7/8 入住）",
+        "Hotel Mystays Fuji Onsen Resort（7/4、7/6）—— 選 Fuji View 房型！",
         "富士山山屋：簾岩館（7/5）—— 越早越好！",
     ],
     "🎫 票券交通": [
         "富士山吉田路線線上通行預約（每人 ¥4,000）",
-        "富士回遊號特急券（新宿↔河口湖，建議提前）",
-        "成田機場交通（Narita Express 或利木津巴士）",
+        "富士回遊號特急券（錦糸町↔富士急高原樂園，去程＋回程，提前在えきねっと購買）",
+        "成田機場交通（N'EX 或京成本線）",
         "日本 SIM 卡或 Wi-Fi 分享器",
+        "Mt. Fuji Pass 2–3日券（7/4、7/6 玩多景點時划算）",
     ],
     "💊 醫藥準備": [
         "高山症藥（乙醯唑胺，請先諮詢醫師，出發前 2 天服用）",
         "止痛藥、腸胃藥",
         "暈車藥（富士山巴士山路蜿蜒）",
+        "肌肉痠痛貼布（下山後必用）",
     ],
     "🥾 登山裝備": [
         "防滑防水登山鞋",
@@ -152,6 +158,80 @@ LOC_COLORS = {
     "kawaguchiko": {"badge": "#3C828F", "light": "#EEF8FA", "border": "#3C828F"},
     "fuji": {"badge": "#438B48", "light": "#EDF7EE", "border": "#438B48"},
 }
+
+HOTELS = [
+    {
+        "name": "KINSHICHO Tokyo Holiday Hotel",
+        "location": "東京・錦糸町",
+        "nights": "7/3・7/7・7/8（三晚）",
+        "station": "錦糸町站 步行 3 分",
+        "color": "tokyo",
+        "highlight": "🚆 富士回遊號直接從這裡出發，出門步行3分即上車，完全不需先去新宿！",
+    },
+    {
+        "name": "Hotel Mystays Fuji Onsen Resort",
+        "location": "富士吉田市・新倉山下",
+        "nights": "7/4・7/6（兩晚）",
+        "station": "富士急高原樂園站 步行 5 分",
+        "color": "kawaguchiko",
+        "highlight": "♨️ 頂樓溫泉可遠眺富士山！建議選 Fuji View 房型",
+    },
+    {
+        "name": "簾岩館（山屋）",
+        "location": "富士山八合目 3,100m",
+        "nights": "7/5（一晚）",
+        "station": "步行登山 5–7 小時方能抵達",
+        "color": "fuji",
+        "highlight": "⛰️ 凌晨從這裡出發攻頂御來光，越早預訂越好，非常搶手！",
+    },
+]
+
+TRANSPORT_ROWS = [
+    {
+        "seg": "成田 → 錦糸町",
+        "mode": "🚃",
+        "options": [
+            {"label": "N'EX + JR 総武線快速（省時）", "time": "約 75 分", "cost": "¥3,070", "tag": None},
+            {"label": "京成本線（快特）→ 押上 → 錦糸町", "time": "約 80 分", "cost": "¥1,050", "tag": "省錢"},
+        ],
+    },
+    {
+        "seg": "錦糸町 → 富士急高原樂園",
+        "mode": "🚆",
+        "options": [
+            {"label": "富士回遊號（直達，不需去新宿）", "time": "約 2h 15m", "cost": "¥4,400", "tag": "直達"},
+        ],
+    },
+    {
+        "seg": "河口湖 → 五合目",
+        "mode": "🚌",
+        "options": [
+            {"label": "富士山巴士（吉田口五合目）", "time": "約 50 分", "cost": "¥1,800", "tag": None},
+        ],
+    },
+    {
+        "seg": "錦糸町 → 清澄白河",
+        "mode": "🚇",
+        "options": [
+            {"label": "東京地鐵半蔵門線（直達）", "time": "約 3 分", "cost": "¥180", "tag": "超近"},
+        ],
+    },
+    {
+        "seg": "錦糸町 → 下北澤",
+        "mode": "🚇",
+        "options": [
+            {"label": "JR 総武線 → 山手線 → 小田急線", "time": "約 35 分", "cost": "¥320", "tag": None},
+        ],
+    },
+    {
+        "seg": "錦糸町 → 成田",
+        "mode": "🚃",
+        "options": [
+            {"label": "JR 総武線快速 → 新宿 → N'EX（省時）", "time": "約 75 分", "cost": "¥3,070", "tag": None},
+            {"label": "錦糸町 → 押上 → 京成本線", "time": "約 80 分", "cost": "¥1,050", "tag": "省錢"},
+        ],
+    },
+]
 
 # ──────────────────────────────────────────────────────────────────────────────
 # CSS
@@ -382,7 +462,7 @@ details.day-card[open] .day-caret { transform: rotate(90deg); }
 .route-strip {
     background: white; border-radius: 20px;
     box-shadow: 0 4px 20px rgba(67,139,72,.08);
-    padding: 24px 32px; margin-bottom: 20px;
+    padding: 24px 32px; margin-bottom: 12px;
     display: flex; align-items: center; justify-content: center; gap: 0;
 }
 .rstop { text-align: center; }
@@ -395,7 +475,8 @@ details.day-card[open] .day-caret { transform: rotate(90deg); }
 .rdot-tokyo  { background: linear-gradient(135deg,#DD792E,#E8974A); }
 .rdot-lake   { background: linear-gradient(135deg,#3C828F,#5BA5B0); }
 .rdot-fuji   { background: linear-gradient(135deg,#438B48,#5A9E5A); }
-.rname   { font-weight: 700; color: #1e2e1e; font-size: .95rem; margin-bottom: 3px; font-family: 'Noto Sans TC', sans-serif; }
+.rname   { font-weight: 700; color: #1e2e1e; font-size: .95rem; margin-bottom: 2px; font-family: 'Noto Sans TC', sans-serif; }
+.rsub    { font-size: .70rem; color: #aaa; margin-bottom: 3px; font-family: 'Noto Sans TC', sans-serif; }
 .rnights { font-size: .72rem; color: #78A95B; background: #EAF5EA; padding: 2px 9px; border-radius: 10px; display: inline-block; font-family: 'Noto Sans TC', sans-serif; }
 .rarrow {
     flex: 1; min-width: 80px;
@@ -408,6 +489,49 @@ details.day-card[open] .day-caret { transform: rotate(90deg); }
 }
 .rline::after { content:'▶'; position:absolute; right:-7px; top:-9px; color:#78A95B; font-size:.75rem; }
 .rtrans { font-size: .68rem; color: #5E7960; text-align: center; white-space: nowrap; font-family: 'Noto Sans TC', sans-serif; }
+
+/* ── Route highlight callout ────────────────── */
+.route-callout {
+    background: linear-gradient(135deg, #FFF4EE, #FFEEDD);
+    border: 2px solid #DD792E;
+    border-radius: 14px;
+    padding: 14px 20px;
+    margin-bottom: 28px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.rc-icon { font-size: 1.8rem; flex-shrink: 0; }
+.rc-text { font-size: .88rem; color: #5E3A10; line-height: 1.6; }
+.rc-text strong { color: #DD792E; }
+
+/* ── Hotel cards ────────────────────────────── */
+.hotel-card {
+    border-radius: 14px;
+    padding: 20px 18px;
+    height: 100%;
+    box-shadow: 0 3px 16px rgba(0,0,0,.07);
+}
+.hc-name { font-family: 'Noto Serif TC', serif; font-size: .92rem; font-weight: 700; margin-bottom: 10px; line-height: 1.4; }
+.hc-meta { font-size: .78rem; color: #555; margin-bottom: 4px; font-family: 'Noto Sans TC', sans-serif; }
+.hc-nights { font-size: .82rem; font-weight: 700; margin-bottom: 4px; font-family: 'Noto Sans TC', sans-serif; }
+.hc-highlight { font-size: .78rem; border-radius: 8px; padding: 8px 12px; line-height: 1.6; margin-top: 10px; font-family: 'Noto Sans TC', sans-serif; }
+
+/* ── Transport block ────────────────────────── */
+.transport-block { background: white; border-radius: 16px; box-shadow: 0 4px 20px rgba(67,139,72,.08); overflow: hidden; }
+.trow { padding: 14px 20px; border-bottom: 1px solid #F0EDE8; display: flex; align-items: flex-start; gap: 16px; }
+.trow:last-child { border-bottom: none; }
+.tr-seg { font-family: 'Noto Sans TC', sans-serif; font-size: .88rem; font-weight: 700; color: #1e2e1e; min-width: 190px; padding-top: 2px; flex-shrink: 0; }
+.tr-opts { flex: 1; display: flex; flex-direction: column; gap: 6px; }
+.tr-opt { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.tr-opt-b .tr-name { color: #888; }
+.tr-name { font-size: .82rem; color: #3a3a3a; flex: 1; font-family: 'Noto Sans TC', sans-serif; min-width: 160px; }
+.tr-time { font-size: .78rem; color: #777; white-space: nowrap; font-family: 'Noto Sans TC', sans-serif; }
+.tr-cost { font-size: .80rem; font-weight: 700; padding: 2px 10px; border-radius: 12px; white-space: nowrap; background: #EDF7EE; color: #438B48; font-family: 'Noto Sans TC', sans-serif; }
+.tr-tag { font-size: .70rem; padding: 2px 8px; border-radius: 10px; background: #FFF4EE; color: #DD792E; font-weight: 700; white-space: nowrap; font-family: 'Noto Sans TC', sans-serif; }
+.tr-tag-blue { background: #EEF8FA; color: #3C828F; }
+.tr-tag-green { background: #EAF5EA; color: #438B48; }
 
 /* ── Footer ─────────────────────────────────── */
 .page-footer {
@@ -490,6 +614,56 @@ def fuji_chart_html():
             f'</div>'
         )
     return f'<div class="fuji-chart">{rows}</div>'
+
+
+def hotel_card_html(h):
+    c = LOC_COLORS[h["color"]]
+    return (
+        f'<div class="hotel-card" style="border-left:5px solid {c["badge"]};background:{c["light"]}">'
+        f'<div class="hc-name" style="color:{c["badge"]}">{h["name"]}</div>'
+        f'<div class="hc-meta">📍 {h["location"]}</div>'
+        f'<div class="hc-nights" style="color:{c["badge"]}">🗓 {h["nights"]}</div>'
+        f'<div class="hc-meta">🚉 {h["station"]}</div>'
+        f'<div class="hc-highlight" style="background:{c["badge"]}22;border-left:3px solid {c["badge"]}">{h["highlight"]}</div>'
+        f'</div>'
+    )
+
+
+def transport_html():
+    rows = ""
+    for r in TRANSPORT_ROWS:
+        opts_html = ""
+        for i, opt in enumerate(r["options"]):
+            tag_html = ""
+            if opt["tag"]:
+                tag_cls = "tr-tag"
+                if opt["tag"] in ("直達", "超近"):
+                    tag_cls = "tr-tag tr-tag-blue"
+                elif opt["tag"] in ("省錢",):
+                    tag_cls = "tr-tag"
+                opts_html += (
+                    f'<div class="tr-opt{"" if i == 0 else " tr-opt-b"}">'
+                    f'<span class="tr-name">{opt["label"]}</span>'
+                    f'<span class="tr-time">{opt["time"]}</span>'
+                    f'<span class="tr-cost">{opt["cost"]}</span>'
+                    f'<span class="{tag_cls}">{opt["tag"]}</span>'
+                    f'</div>'
+                )
+            else:
+                opts_html += (
+                    f'<div class="tr-opt{"" if i == 0 else " tr-opt-b"}">'
+                    f'<span class="tr-name">{opt["label"]}</span>'
+                    f'<span class="tr-time">{opt["time"]}</span>'
+                    f'<span class="tr-cost">{opt["cost"]}</span>'
+                    f'</div>'
+                )
+        rows += (
+            f'<div class="trow">'
+            f'<div class="tr-seg">{r["mode"]} {r["seg"]}</div>'
+            f'<div class="tr-opts">{opts_html}</div>'
+            f'</div>'
+        )
+    return f'<div class="transport-block">{rows}</div>'
 
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -654,7 +828,7 @@ components.html(HERO_HTML, height=316, scrolling=False)
 
 stats = [
     ("🗓", "7天6夜", "旅行天數"),
-    ("🗺", "3 個地點", "東京・河口湖・富士山"),
+    ("🗺", "3 個地點", "東京・富士吉田・富士山"),
     ("👥", "3 人同行", "Jack・Mike・Apple"),
 ]
 cols = st.columns(3, gap="medium")
@@ -680,17 +854,19 @@ st.markdown("""
   <div class="rstop">
     <div class="rdot rdot-tokyo">🗼</div>
     <div class="rname">東京</div>
+    <div class="rsub">錦糸町</div>
     <div class="rnights">3 晚</div>
   </div>
 
   <div class="rarrow">
     <div class="rline"></div>
-    <div class="rtrans">🚃 富士回遊號<br>1h 53m</div>
+    <div class="rtrans">🚆 富士回遊號<br>2h 15m</div>
   </div>
 
   <div class="rstop">
     <div class="rdot rdot-lake">🏞</div>
-    <div class="rname">河口湖</div>
+    <div class="rname">富士吉田</div>
+    <div class="rsub">河口湖周邊</div>
     <div class="rnights">2 晚</div>
   </div>
 
@@ -702,10 +878,33 @@ st.markdown("""
   <div class="rstop">
     <div class="rdot rdot-fuji">🗻</div>
     <div class="rname">富士山</div>
+    <div class="rsub">八合目山屋</div>
     <div class="rnights">1 晚 ⛺</div>
   </div>
 </div>
+
+<div class="route-callout">
+  <span class="rc-icon">🚆</span>
+  <div class="rc-text">
+    <strong>重大亮點：</strong>富士回遊號停靠「錦糸町」站！從飯店步行 3 分鐘直接上車，<strong>完全不需要先去新宿轉車</strong>，直達富士急高原樂園站，再步行 5 分鐘到 Hotel Mystays。
+  </div>
+</div>
 """, unsafe_allow_html=True)
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# ACCOMMODATION
+# ──────────────────────────────────────────────────────────────────────────────
+
+st.markdown("""
+<p class="sec-title">住宿安排</p>
+<p class="sec-sub">ACCOMMODATION</p>
+""", unsafe_allow_html=True)
+
+cols = st.columns(3, gap="medium")
+for col, h in zip(cols, HOTELS):
+    with col:
+        st.markdown(hotel_card_html(h), unsafe_allow_html=True)
 
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -786,6 +985,24 @@ st.markdown("""
   ⚠️ <strong>高山症提醒：</strong>五合目抵達後先休息 30 分鐘再出發。
   如有不適（頭痛、噁心、呼吸急促），請立即下山，不要強行攻頂。
 </div>
+</div>
+""", unsafe_allow_html=True)
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# TRANSPORT SUMMARY
+# ──────────────────────────────────────────────────────────────────────────────
+
+st.markdown("""
+<p class="sec-title">交通一覽</p>
+<p class="sec-sub">TRANSPORT GUIDE</p>
+""", unsafe_allow_html=True)
+
+st.markdown(transport_html(), unsafe_allow_html=True)
+
+st.markdown("""
+<div class="info-box" style="margin-top:12px;">
+  🎫 <strong>票券建議：</strong>7/4 和 7/6 玩多個富士山底景點（纜車、富士急、忍野八海）時，推薦購買 <strong>Mt. Fuji Pass 2–3日券</strong>，含周邊12個景點優惠，比單買划算很多。
 </div>
 """, unsafe_allow_html=True)
 
