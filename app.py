@@ -27,8 +27,8 @@ ITINERARY = [
         "day": 2, "date": "07/04（六）", "title": "錦糸町 → 富士吉田",
         "location": "kawaguchiko",
         "activities": [
-            {"time": "上午", "icon": "🚆", "name": "富士回遊號直達出發", "detail": "從錦糸町站直搭富士回遊號 → 富士急高原樂園站（約2小時15分），完全不需先去新宿！"},
-            {"time": "抵達", "icon": "🏨", "name": "Mystays 放行李", "detail": "步行5分鐘抵達 Hotel Mystays，寄放行李"},
+            {"time": "上午", "icon": "🚆", "name": "電車（富士回遊號）", "detail": "錦糸町站 → JR 総武線快速（約15分，¥220）→ 新宿站 → 富士回遊號（約2小時）→ 富士急高原樂園站"},
+            {"time": "抵達", "icon": "🏨", "name": "Mystays 放行李", "detail": "從富士急高原樂園站步行5分鐘抵達 Hotel Mystays，寄放行李"},
             {"time": "上午", "icon": "⛩", "name": "新倉山淺間公園（忠靈塔）", "detail": "五重塔＋富士山經典構圖，需爬約400階，上午雲少最美"},
             {"time": "13:00", "icon": "🍜", "name": "吉田烏龍麵午餐", "detail": "富士吉田本町通，名物「吉田烏龍麵」，湯頭偏甜辣，麵條超粗"},
             {"time": "14:00", "icon": "🌸", "name": "大石公園", "detail": "湖邊漫步，遠眺富士山，7月薰衣草季盛開"},
@@ -63,7 +63,7 @@ ITINERARY = [
         "day": 5, "date": "07/07（二）", "title": "回東京 × 下北澤",
         "location": "tokyo",
         "activities": [
-            {"time": "上午", "icon": "🚆", "name": "富士回遊號返錦糸町", "detail": "富士急高原樂園站直搭，約2小時，下車步行3分入住飯店，放行李休息"},
+            {"time": "上午", "icon": "🚆", "name": "電車（富士回遊號）", "detail": "富士急高原樂園站 → 富士回遊號（約2小時）→ 新宿站 → JR 総武線快速（約15分，¥220）→ 錦糸町站，步行3分到飯店放行李"},
             {"time": "14:00", "icon": "🛍️", "name": "Bonus Track（下北澤）", "detail": "獨立商店街，咖啡館、發酵食品店、藝廊，有戶外座位"},
             {"time": "15:30", "icon": "📖", "name": "B&B（Book & Beer）", "detail": "Bonus Track 2F，邊喝啤酒邊看書，超放鬆"},
             {"time": "16:30", "icon": "🎸", "name": "Village Vanguard", "detail": "亞文化雜貨聖地，奇奇怪怪的東西都有"},
@@ -128,7 +128,7 @@ CHECKLISTS = {
     ],
     "🎫 票券交通": [
         "富士山吉田路線線上通行預約（每人 ¥4,000）",
-        "富士回遊號特急券（錦糸町↔富士急高原樂園，去程＋回程，提前在えきねっと購買）",
+        "富士回遊號特急券（新宿↔富士急高原樂園，去程＋回程，提前在えきねっと購買，常常一開放就額滿）",
         "成田機場交通（N'EX 或京成本線）",
         "日本 SIM 卡或 Wi-Fi 分享器",
         "Mt. Fuji Pass 2–3日券（7/4、7/6 玩多景點時划算）",
@@ -166,7 +166,7 @@ HOTELS = [
         "nights": "7/3・7/7・7/8（三晚）",
         "station": "錦糸町站 步行 3 分",
         "color": "tokyo",
-        "highlight": "🚆 富士回遊號直接從這裡出發，出門步行3分即上車，完全不需先去新宿！",
+        "highlight": "🚆 出發：搭 JR 総武線快速（15分）→ 新宿，轉乘富士回遊號直達富士急高原樂園",
     },
     {
         "name": "Hotel Mystays Fuji Onsen Resort",
@@ -196,10 +196,17 @@ TRANSPORT_ROWS = [
         ],
     },
     {
-        "seg": "錦糸町 → 富士急高原樂園",
+        "seg": "錦糸町 → 新宿",
+        "mode": "🚃",
+        "options": [
+            {"label": "JR 総武線快速", "time": "約 15 分", "cost": "¥220", "tag": None},
+        ],
+    },
+    {
+        "seg": "新宿 → 富士急高原樂園",
         "mode": "🚆",
         "options": [
-            {"label": "富士回遊號（直達，不需去新宿）", "time": "約 2h 15m", "cost": "¥4,400", "tag": "直達"},
+            {"label": "富士回遊號（特急，提前在えきねっと購票）", "time": "約 2 小時", "cost": "¥4,200", "tag": "富士回遊號"},
         ],
     },
     {
@@ -980,7 +987,7 @@ st.markdown("""
   </div>
   <div class="rarrow">
     <div class="rline"></div>
-    <div class="rtrans">🚆 富士回遊號<br>2h 15m</div>
+    <div class="rtrans">🚃→🚆 総武線+富士回遊號<br>約 2h 15m</div>
   </div>
   <div class="rstop">
     <div class="rdot rdot-lake">🏞</div>
@@ -1003,7 +1010,7 @@ st.markdown("""
 <div class="route-callout">
   <span class="rc-icon">🚆</span>
   <div class="rc-text">
-    <strong>重大亮點：</strong>富士回遊號停靠「錦糸町」站！從飯店步行 3 分鐘直接上車，<strong>完全不需要先去新宿轉車</strong>，直達富士急高原樂園站，再步行 5 分鐘到 Hotel Mystays。
+    <strong>交通提醒：</strong>富士回遊號從<strong>新宿站</strong>發車。從錦糸町飯店需先搭 <strong>JR 総武線快速（約 15 分，¥220）→ 新宿站</strong>，再轉乘富士回遊號（約 2 小時）直達富士急高原樂園站，步行 5 分鐘到 Hotel Mystays。
   </div>
 </div>
 """, unsafe_allow_html=True)
